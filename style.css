@@ -109,6 +109,7 @@ label {
 
 .select-selected:after {
     position: absolute;
+    /* font-family: "Font Awesome 5 Free"; */
     content: "";
     top: 49px;
     right: 10px;
@@ -135,6 +136,8 @@ label {
     left: 0;
     right: 0;
     z-index: 99;
+    height: 20rem;
+    overflow: scroll;
 }
 
 .select-hide {
